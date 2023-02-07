@@ -1,13 +1,14 @@
 {
   "name": "docsify-giscus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "docsify giscus plugin",
   "main": "src",
   "unpkg": "dist/docsify-giscus.min.js",
   "homepage": "https://github.com/mg0324/docsify-giscus",
   "repository": "git@github.com:mg0324/docsify-giscus.git",
   "files": [
-    "dist/"
+    "dist/",
+    "demo.png"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

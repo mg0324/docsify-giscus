@@ -3,11 +3,13 @@ docsify giscus plugin，集成giscus评论插件！
 
 [![npm](https://img.shields.io/npm/v/docsify-plugin-toc.svg?style=flat-square)](https://www.npmjs.com/package/docsify-giscus)
 
+![示例](demo.png)
+
 
 ## Usage
 1. [Applay giscus](https://giscus.app/zh-CN) ，申请 giscus
 
-2. Configure docsify-giscus:(配置)
+2. Configure docsify-giscus:(配置值详情请参考 https://giscus.app/zh-CN ）
 
     ```html
     <script>
