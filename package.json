@@ -1,11 +1,11 @@
 {
-  "name": "docsify-giscus",
-  "version": "1.0.2",
-  "description": "docsify giscus plugin",
+  "name": "mangodoc-giscus",
+  "version": "1.0.0",
+  "description": "mangodoc giscus plugin",
   "main": "src",
-  "unpkg": "dist/docsify-giscus.min.js",
-  "homepage": "https://github.com/mg0324/docsify-giscus",
-  "repository": "git@github.com:mg0324/docsify-giscus.git",
+  "unpkg": "dist/mangodoc-giscus.min.js",
+  "homepage": "https://github.com/mg0324/mangodoc-giscus",
+  "repository": "git@github.com:mg0324/mangodoc-giscus.git",
   "files": [
     "dist/",
     "demo.png"
@@ -16,7 +16,7 @@
     "build": "webpack"
   },
   "keywords": [
-    "docsify",
+    "mangodoc",
     "giscus"
   ],
   "author": "mgang",

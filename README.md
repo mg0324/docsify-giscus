@@ -1,7 +1,7 @@
-# docsify-giscus
-docsify giscus plugin，集成giscus评论插件！
+# mangodoc-giscus
+mangodoc giscus plugin，集成giscus评论插件！
 
-[![npm](https://img.shields.io/npm/v/docsify-plugin-toc.svg?style=flat-square)](https://www.npmjs.com/package/docsify-giscus)
+[![npm](https://img.shields.io/npm/v/mangodoc-plugin-toc.svg?style=flat-square)](https://www.npmjs.com/package/mangodoc-giscus)
 
 ![示例](demo.png)
 
@@ -9,13 +9,13 @@ docsify giscus plugin，集成giscus评论插件！
 ## Usage
 1. [Applay giscus](https://giscus.app/zh-CN) ，申请 giscus
 
-2. Configure docsify-giscus:(配置值详情请参考 https://giscus.app/zh-CN ）
+2. Configure mangodoc-giscus:(配置值详情请参考 https://giscus.app/zh-CN ）
 
     ```html
     <script>
-    window.$docsify = {
+    window.$mangodoc = {
       giscus:{
-        repo: "mg0324/docsify-note-01",
+        repo: "mg0324/mangodoc-note-01",
         repoId: "R_kgDOI4bELQ",
         category: "Announcements",
         categoryId: "DIC_kwDOI4bELc4CT_Su",
@@ -32,10 +32,10 @@ docsify giscus plugin，集成giscus评论插件！
     </script>
     ```
 
-3. Insert script into docsify document:
+3. Insert script into mangodoc document:
 
     ```html
     <!-- giscus评论  -->
-    <link rel="stylesheet" href="https://unpkg.com/docsify-giscus@1.0.2/dist/giscus.css">
-    <script src="https://unpkg.com/docsify-giscus@1.0.2/dist/docsify-giscus.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/mangodoc-giscus@1.0.0/dist/giscus.css">
+    <script src="https://unpkg.com/mangodoc-giscus@1.0.0/dist/mangodoc-giscus.min.js"></script>
     ```

@@ -24,16 +24,12 @@ function renderGiscus(config){
     s.parentNode.insertBefore(giscus, s);
     console.info("[docsify-giscus] rendering!")
 }
-
-export function install (hook, vm) {
-    hook.afterEach(function(html, next) {
-        // 解析成 html 后调用。
-        // beforeEach 和 afterEach 支持处理异步逻辑
-        // ...
-        // 异步处理完成后调用 next(html) 返回结果
+export default {
+    afterEach(html,next){
+        console.info("mangodoc-giscus afterEach:"+html);
         html = html + "<div class='giscus'></div>";
-        var config = window.$docsify.giscus;
+        var config = window.$mangodoc.giscus;
         renderGiscus(config);
         next(html);
-    });
+    }
 }
