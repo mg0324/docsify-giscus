@@ -1,7 +1,7 @@
-import install from './giscus'
+import { install } from './giscus'
 
-if (!window.$mangodoc) {
-  window.$mangodoc = {}
+if (!window.$docsify) {
+  window.$docsify = {}
 }
 
-window.$mangodoc.plugins = (window.$mangodoc.plugins || []).concat(install)
+window.$docsify.plugins = (window.$docsify.plugins || []).concat(install)
