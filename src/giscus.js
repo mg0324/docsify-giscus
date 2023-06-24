@@ -18,6 +18,7 @@ function renderGiscus(config){
     giscus.dataset["theme"] = config.theme;//"light";
     giscus.dataset["lang"] = config.lang;//"zh-CN";
     giscus.dataset["loading"] = config.loading;//"lazy";
+    giscus.dataset["term"] = config.term;//"location.pathname";
     giscus.crossorigin = "anonymous";
     giscus.id = "giscus";
     var s = document.getElementsByTagName("script")[0]; 
